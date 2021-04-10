@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+body,main{
+    padding: 0px;
+    margin: 0px;
+}
+/* header y barra de navegacion */
+header{
+   width: 100%;
+   height: 10vh ;
+}
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+     align-items: center; /*centrar vticalmente */
+     background-color: #37A9B8;
+}
+
+header nav ol{
+    width: 100%;
+    display: flex;
+    flex-direction: row; /*la direccion sera en fila*/
+    justify-content: center; /*contenido centrado */
+    justify-items: center; /*alineamiento vertical centrado */
+    padding-left: 0px;
+}
+
+header nav ol li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'New Tegomin', serif;
+    font-size: 1.5rem;
+}
+
+header nav ol li:hover{
+    color: #26FFAF;
+    cursor: pointer;
+}
+
+/* banner */
+
+.contain{
+    width: 100%;
+    height: 90vh; /*porque el 10% lo tiene el header*/
+    /* background-image: url('https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2018/07/vw-beetle-electrico.jpg'); */
+    background-image: url('https://i.pinimg.com/originals/85/54/9d/85549d0f4b422e2a1f603c9ea30cebf6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 110%; 
+}
+
+.contain .filter{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: start; /*?*/
+    align-items: center;
+}
+
+.contain .filter .column-60{
+    width: 60%;
+    margin-left: 100px;
+}
+
+.contain .filter .column-60 h2{
+    font-family: 'New Tegomin', serif;
+    font-size: 2.8rem;
+    color: #2390E8;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.contain .filter .column-60 p{
+    font-family: 'New Tegomin', serif;
+    font-size: 2.0rem;
+    color: #26FFAF;
+}
+
+.contain .filter .column-60 button{
+    width: 30%;
+    padding: 0px 5px;
+    border-radius: 20px;
+    font-family: 'New Tegomin', serif;
+    font-size: 1.8rem;
+    background-color: #46D8EB;
+    color: #2390E8;
+    border-color: #2390E8;
+}
+
+.contain .filter .column-60 button:hover{
+    color: #46D8EB;
+    background-color: #2390E8;
+    cursor: pointer;
+}
+
+ /* 3 imagenes */
+
+.contain-main{
+    width: 100%;
+}
+
+.contain-main .box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.contain-main .box .column-30{
+    width: 18em;
+    height: 50vh;
+    margin: 20px;
+    background-color: rgb(190, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contain-main .box .column-30 h2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #26FFAF;
+    font-family: 'New Tegomin', serif;
+    margin-top: 0px; /*para que quede en todo el bode*/
+}
+
+.contain-main .box .column-30 p{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #46D8EB;
+    font-family: 'New Tegomin', serif;
+    padding: 3px;
+    margin-bottom: 0px; /*para que quede en todo el bode*/
+}
+
+.contain-main .box .column-30:nth-child(1){
+    background-image: url('https://i.blogs.es/3b7925/volkswagen-beetle-2017-1280-0a/450_1000.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.contain-main .box .column-30:nth-child(2){
+    background-image: url('https://www.autobild.es/sites/autobild.es/public/styles/480/public/dc/fotos/Volkswagen-Beetle-Cabrio-2017-C06.jpg?itok=xcJRnFAA');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.contain-main .box .column-30:nth-child(3){
+    background-image: url('https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/480x272/public/media/image/2015/04/406713-volkswagen-beetle-pink-concept.jpg?itok=kEgq0i7H');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%; 
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #37A9B8;;
+}
+
+footer .box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .box .column-30{
+    width: 20em;
+}
+
+footer .box .column-30:nth-child(1) ul{
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 20%;
+}
+
+footer .box .column-30:nth-child(1) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'New Tegomin', serif;
+    font-size: 1.2rem;
+
+}
+footer .box .column-30:nth-child(1) ul li:hover{
+    color: #26FFAF;
+    cursor: pointer;
+}
+
+footer .box .column-30:nth-child(2) ul{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .box .column-30:nth-child(2) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'New Tegomin', serif;
+    font-size: 1.2rem;
+
+}
+footer .box .column-30:nth-child(2) ul li:hover{
+    color: #26FFAF;
+    cursor: pointer;
+}
+
+footer .box .column-30:nth-child(3) h2{
+    font-family: 'New Tegomin', serif;
+    font-size: 1.3rem;
+}
+
+/* Responsive and desing */
+
+@media (max-width: 1080px){
+    header nav ol li{
+        font-size: 1.6em; /*Cambia el tamaño de texto de rem a em*/
+    }
+}
+
+@media (max-width: 768px){  /*para tablets*/
+    footer .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .box .column-30{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .box .column-30:nth-child(1) ul{
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    footer .box .column-30:nth-child(1) ul li{
+        text-align: center;
+    }
+
+    footer .box .column-30:nth-child(2) ul{
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    footer .box .column-30:nth-child(2) ul li{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    .contain .filter .column-60 button{
+        width: 100%;
+    }
+
+    .contain .filter .column-60 h2{
+       text-align: center;
+    }
+    
+    .contain .filter .column-60 p{
+        text-align: center;
+    }
+
+    .contain-main .box{
+        flex-direction: column;
+    }
+
+    .contain-main .box .column-30{
+        width: 80%;
+    }
+}
+
+@media (max-width: 370px){
+    header{
+        height: 100%;
+    }
+    header nav{
+        height: 100%;
+    }
+    header nav ol{
+        flex-direction: column; /*la direccion sera en fila*/
+    }
+    header nav ol li{
+        text-align: center;
+    }
+    .contain .filter .column-60{
+        width: 60%;
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+
+    .contain .filter .column-60 button{
+        width: 40%;
+        padding: 0px 5px;
+        margin-left: 25%;
+        font-size: 1.0rem;
+        
+    }
+}
